@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Burger menu-øvelse</title>
+  <link rel="stylesheet" href="css/demo.css" />
+  <!-- Ret i nedenståendde stylesheet -->
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/demo.css">
+</head>
+
+<body>
+  <header class="banner">
+    <div class="logo">
+      <a href="#0">Logo</a>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <header>
+        <h2>Kontakt os</h2>
+        <p>
+          Udfyld kontaktformularen for at kontakte os. Vi glæder os til at
+          høre fra dig.
+        </p>
+      </header>
+
+      <form name="kontakt" netlify>
+        <!-- Formular-indhold -->
+        <div class="form-felt">
+          <label for="name">Navn</label>
+          <input id="full-name" name="fname" type="text" />
+
+          <label for="name">Efternavn</label>
+          <input id="full-name" name="lname" type="text" />
+
+          <label for="tel">Telefon nummer</label>
+          <input id="tel-num" tel="telefon" type="text" />
+          <label>
+            Andreas vil høre om du
+            <select name="liste">
+              <option value="">Vil du være kærster</option>
+              <option value="ja">Ja</option>
+              <option value="nej">Nej</option>
+              <option value="måske">Måske</option>
+            </select>
+          </label>
+          <button>Ind send</button>
+        </div>
+      </form>
+    </section>
+  </main>
+</body>
+
+</html>

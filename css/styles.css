@@ -1,0 +1,22 @@
+/* Dine styles her */
+form {
+ 
+  padding: 2rem;
+  background:  #5000ca22;
+  border-radius: 8px;
+}
+
+button{
+  border: solid black 0.1rem;
+  background-color: transparent;
+}
+
+button :hover{
+  
+ 
+  background-color:  rgba(120, 44, 233, 0.133);
+}
+
+.form-felt, label, input {
+  display: block;
+}
